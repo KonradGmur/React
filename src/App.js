@@ -1,7 +1,7 @@
 import React, { Suspense, useState } from "react";
 import "./styles.css";
 
-const ComponentA = React.lazy(() => import(".ComponentA"));
+const ComponentA = React.lazy(() => import("./ComponentA"));
 
 export default function App() {
   const [showComponent, setShowComponent] = useState();
